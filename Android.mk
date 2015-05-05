@@ -40,7 +40,6 @@ $(call camera-prebuilt-boilerplate, \
 # CSS1.5 ISP2300
 include $(CLEAR_VARS)
 LOCAL_MODULE := hdr_fw_css15_2300
-LOCAL_MODULE_OWNER := intel
 LOCAL_MODULE_TAGS := optional
 LOCAL_REQUIRED_MODULES := $(hdr_css15_2300_libs)
 include $(BUILD_PHONY_PACKAGE)
@@ -61,7 +60,6 @@ $(call camera-prebuilt-boilerplate, \
 # build HDR v2 FW CSS2.1 ISP2401
 include $(CLEAR_VARS)
 LOCAL_MODULE := hdr_v2_fw_css21_2401
-LOCAL_MODULE_OWNER := intel
 LOCAL_MODULE_TAGS := optional
 LOCAL_REQUIRED_MODULES := $(hdr_v2_css21_2401_libs)
 include $(BUILD_PHONY_PACKAGE)
@@ -72,7 +70,6 @@ $(call camera-prebuilt-boilerplate, \
 # build ULL v1.5 FW CSS2.1 ISP2400B0
 include $(CLEAR_VARS)
 LOCAL_MODULE := ull_v15_fw_css21_2400b0
-LOCAL_MODULE_OWNER := intel
 LOCAL_MODULE_TAGS := optional
 LOCAL_REQUIRED_MODULES := $(ull_v15_css21_2400b0_libs)
 include $(BUILD_PHONY_PACKAGE)
@@ -83,7 +80,6 @@ $(call camera-prebuilt-boilerplate, \
 # build ULL v1.5 FW CSS2.1 ISP2401
 include $(CLEAR_VARS)
 LOCAL_MODULE := ull_v15_fw_css21_2401
-LOCAL_MODULE_OWNER := intel
 LOCAL_MODULE_TAGS := optional
 LOCAL_REQUIRED_MODULES := $(ull_v15_css21_2401_libs)
 include $(BUILD_PHONY_PACKAGE)
